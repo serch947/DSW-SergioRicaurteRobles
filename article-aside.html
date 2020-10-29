@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Curso Diseño Web - Actividad Fase 3</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Conceptos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="article-aside.html">Etiquetas Article y Aside</a>
+                            <a class="dropdown-item" href="footer-section.html">Etiquetas Footer y Section</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recursos.html" >Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autoevaluacion.html">Autoevaluación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav><br>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/estructura.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+    </section>
+    </div><br>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm 6 text-center">
+                        <h2>Article</h2><br>
+                        <p>El elemento article es un contenedor de bloques de contenido que se consideran independientes
+                            del sitio
+                            web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por separado, como por
+                            ejemplo, en
+                            la sindicación. Puedes encontrar habitualmente a este elemento encerrando artículos,
+                            entradas de blogs o
+                            mensajes de un foro.
+
+                            Cuando dos o más de estos elementos están anidados, se supone que el elemento article
+                            interior guarda
+                            relación con el elemento article que actúa como padre. Este podría ser el caso de una
+                            entrada de blog
+                            (siendo en sí misma un article), donde cada comentario puede estar encerrado por un elemento
+                            article.
+                        </p>
+                        <p>El elemento article puede ser utilizado en conjunto con otros elementos como header, footer y
+                            time para agregar información acerca de su contenido. Esta información puede ser utilizada,
+                            por ejemplo, por navegadores o lectores de noticias.</p>
+                        <p>No se deben confundir los elementos article y section. El elemento article tiene un mayor
+                            significado e implica que sus contenidos pueden ser tratados independientemente del
+                            documento que los contiene.</p>
+                        <h2>Ejemplo</h2>
+                        <p>El siguiente ejemplo muestra un uso básico del elemento article. Dentro de éste, podemos ver
+                            únicamente un título y un par de párrafos. Sin embargo, este contenido califica como
+                            independiente y puede ser tratado por separado y aún tener sentido.</p>
+                        <figure>
+                            <a href="../img/article.png"><img class="img-fluid" src="img/article.png"
+                                    alt=""></a>
+                            <figcaption class="pie-foto">Dale clic a la imagen para ver el ejemplo</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm 6 text-center">
+                        <h2>Aside</h2><br>
+                        <p>El elemento aside es un contenedor para información que se considera solo levemente
+                            relacionada al documento o la sección en la que es definida. En otras palabras, el contenido
+                            del elemento aside debe estar relacionado al contenido circundante, pero no ser
+                            completamente necesario para su comprensión.
+
+                            El elemento aside puede ser típicamente encontrado alrededor de enlaces de blogrolls,
+                            enlaces al archivo, un glosario, una lista de tweets del autor, o notas, pensamientos o
+                            ideas que se le han ocurrido al autor durante la producción del documento. Asimismo, puedes
+                            ver ejemplos perfectos de notas al margen en revistas y diarios impresos, donde se provee
+                            información adicional (pero no crítica) para enriquecer la experiencia del usuario.
+                        </p>
+                        <p>Los autores no deberían utilizar el elemento aside para encerrar contenido que no guarda
+                            relación con la sección en la que se define. Su contenido debe tener alguna relación con su
+                            entorno.</p>
+                        <h2>Ejemplo</h2>
+                        <p>En este ejemplo usaremos al elemento aside para definir una sección de navegación con
+                            vínculos a sitios relacionados. Puedes ver como los vínculos están, ciertamente,
+                            relacionados al documento.</p>
+                        <figure>
+                            <a href="../img/aside-img.png"><img class="img-fluid" src="img/aside-img.png"
+                                    alt=""></a>
+                            <figcaption class="pie-foto">Dale clic a la imagen para ver el ejemplo</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm 6 text-center">
+                        <aside>
+                            <a class="twitter-timeline" data-width="550" data-height="700" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </aside>
+                    </div>
+                </div>
+        </section>
+    </main><br>
+    <footer>
+        Derechos Reservados &copy; 2020 |
+        Diseñado por: Sergio Ricaurte Robles |
+        <a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia - UNAD</a>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
