@@ -12,6 +12,13 @@ h2{
     color: #005883;
 }
 
+h6{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #005883;
+}
+
 .logo{
     width: 250px;
     padding: 10 0;
